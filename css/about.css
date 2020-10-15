@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1200px; */
+    min-height: 100vh;
+    background: #18191f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+}
+
+header, main, footer {
+    width: 100%;
+    text-align: center;
+}
+
+/* ----------------------- HEADER -------------------------------- */
+header {
+    margin: 80px 0 5px ;
+}
+
+header h1 {
+    font-size: 60px;
+    margin: 0 0 20px 0;
+}
+
+header p {
+    text-align: justify;
+    margin: 20px;
+    font-size: 16px;
+}
+
+header img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
+                3px 3px 3px rgba(0,0,0,0.2);
+}
+header a:hover  {
+    box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
+                2px 2px 3px rgba(255,255,255,0.05);
+    text-shadow: 0 0 15px white;
+}
+/* ----------------------- FOOTER ------------------------------- */
+footer {
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+footer h2 {
+    margin: 20px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul li {
+    position: relative;
+    list-style: none;
+}
+
+ul li a {
+    outline: none;
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #18191f;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
+                3px 3px 3px rgba(0,0,0,0.2);
+}
+
+ul li a .fab {
+    font-size: 22px;
+    color: #555;
+}
+
+ul li a:hover .fa-twitter {
+    color: #1da1f2;
+    text-shadow: 0 0 15px #1da1f2;
+}
+
+ul li a:hover .fa-github-alt {
+    color: #fafafa;
+    text-shadow: 0 0 15px #fafafa; 
+}
+
+ul li a:hover .fa-linkedin-in {
+    color: #0077b5;
+    text-shadow: 0 0 15px #0077b5;
+}
+
+ul li a:hover .fa-whatsapp {
+    color: #4aae20;
+    text-shadow: 0 0 15px #4aae20;
+}
+
+ul li a:hover  {
+    box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
+                2px 2px 3px rgba(255,255,255,0.05);
+}

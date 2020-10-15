@@ -1,0 +1,228 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* max-width: 1200px; */
+    min-height: 100vh;
+    background: #18191f;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Ubuntu';
+}
+
+header, main, footer {
+    width: 100%;
+    text-align: center;
+}
+
+/* ---------------------- HEADER ------------------------------------ */
+
+header {
+    margin: 50px 0 5px ;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 80px;
+    margin: 0 0 20px 0;
+}
+
+header h3 {
+    margin: 20px;
+    font-size: 26px;
+    font-weight: normal;
+}
+
+header p {
+    font-size: 16px;
+    margin: 20px 200px;
+    text-align: justify;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
+                3px 3px 3px rgba(0,0,0,0.2);
+}
+header a:hover  {
+    text-shadow: 0 0 15px white;
+}
+
+header a:focus {
+box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
+                2px 2px 3px rgba(255,255,255,0.05);
+}
+
+/* -------------------------- MAIN ----------------------------- */
+
+section h2 {
+    font-size:60px;
+    margin: 0 0 20px 0;
+}
+
+section h4 {
+    font-size:26px;
+    margin: 10px 0 40px 0;
+}
+
+section p {
+    font-size: 20px;
+    margin: 0 0 40px 0;
+}
+
+/* ---------------------------- PROYECTOS ---------------------------- */
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* max-width: 1200px; */
+    margin:20px 0;
+}
+
+.projects .card {
+    position: relative;
+    min-width: 250px;
+    height: 500px;
+    box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
+                inset -5px -5px 15px rgba(255,255,255,0.1);
+    border-radius: 15px;
+    margin: 20px;
+}
+
+.projects .card .box {
+    position:absolute;
+    top: 20px;
+    right: 20px;
+    bottom: 20px;
+    left: 20px;
+    background: #18191f;
+    border: 2px solid #18191f;
+    border-radius:15px ;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.5);
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+.projects .card .box .content {
+    text-align: center;
+    overflow: hidden;
+}
+
+.projects .card .box .content  img{
+    width: 400px;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.projects .card .box .content  h3 {
+    padding: 10px;
+    font-size: 22px;
+    color: #ffffffbd;
+    z-index: 1s;
+    transition: 0.5s;
+}
+
+.projects .card .box .content  h5 {
+    margin: 10px;
+    font-size: 16px;
+    color: rgba(255,255,255,0.5);
+}
+
+.projects .card .box .content  h6 {
+    margin: 8px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.2);
+}
+
+
+.projects .card .box .content  a {
+    display: inline-block;
+    padding: 8px 20px;
+    background: #2196f3;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+/* ----------------------- FOOTER ------------------------------- */
+footer {
+    text-align: center;
+    margin: 20px;
+}
+
+footer h2 {
+    margin: 20px;
+}
+
+footer section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer section button {
+    position: relative;
+    list-style: none;
+    background: none;
+    border: none;
+}
+
+footer section button a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background: #18191f;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 3px rgba(255,255,255,0.05),
+                3px 3px 3px rgba(0,0,0,0.2);
+}
+
+footer section button a .fab {
+    font-size: 22px;
+    color: #555;
+}
+
+footer section button a:hover .fa-twitter {
+    color: #1da1f2;
+    text-shadow: 0 0 15px #1da1f2;
+}
+
+footer section button a:hover .fa-github-alt {
+    color: #fafafa;
+    text-shadow: 0 0 15px #fafafa; 
+}
+
+footer section button a:hover .fa-linkedin-in {
+    color: #0077b5;
+    text-shadow: 0 0 15px #0077b5;
+}
+
+footer section button a:hover .fa-whatsapp {
+    color: #4aae20;
+    text-shadow: 0 0 15px #4aae20;
+}
+
+footer section button a:focus {
+    box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
+                    2px 2px 3px rgba(255,255,255,0.05);
+    }
