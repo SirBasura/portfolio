@@ -79,7 +79,6 @@ header .card .box {
     bottom: 20px;
     left: 20px;
     background: #18191f;
-    border: 2px solid #18191f;
     border-radius:15px ;
     box-shadow: 0 20px 50px rgba(0,0,0,0.5);
     transition: 0.5s;
@@ -120,6 +119,7 @@ section p {
     position: relative;
     min-width: 280px;
     height: 180px;
+    border: 2px solid #2b2d37;
     box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2),
                 inset -5px -5px 15px rgba(255,255,255,0.1);
     border-radius: 15px;
@@ -225,9 +225,10 @@ footer section button a {
                 3px 3px 3px rgba(0,0,0,0.2);
 }
 
-footer section button a .fab {
+footer section button a .fab, .far {
     font-size: 22px;
     color: #555;
+    font-weight: lighter;
 }
 
 footer section button a:hover .fa-twitter {
@@ -248,6 +249,11 @@ footer section button a:hover .fa-linkedin-in {
 footer section button a:hover .fa-whatsapp {
     color: #4aae20;
     text-shadow: 0 0 15px #4aae20;
+}
+
+footer section button a:hover .fa-envelope {
+    color: #ea4335;
+    text-shadow: 0 0 15px #ea4335;
 }
 
 footer section button a:focus {
