@@ -70,6 +70,7 @@ box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
                 inset -5px -5px 15px rgba(255,255,255,0.1);
     border-radius: 15px;
     margin: 20px;
+    border: 2px solid #2b2d37;
 }
 
 .projects .card .box {
@@ -95,6 +96,7 @@ box-shadow: -3px -3px 3px rgba(0,0,0,0.2),
 
 .projects .card .box .content  img{
     width: 100%;
+    max-height: 190px;
     object-fit: fill;
     border-radius: 15px 15px 0 0;
     overflow: hidden;
@@ -188,7 +190,7 @@ footer section button a {
                 3px 3px 3px rgba(0,0,0,0.2);
 }
 
-footer section button a .fab {
+footer section button a .fab, .far {
     font-size: 22px;
     color: #555;
 }
@@ -211,6 +213,11 @@ footer section button a:hover .fa-linkedin-in {
 footer section button a:hover .fa-whatsapp {
     color: #4aae20;
     text-shadow: 0 0 15px #4aae20;
+}
+
+footer section button a:hover .fa-envelope {
+    color: #ea4335;
+    text-shadow: 0 0 15px #ea4335;
 }
 
 footer section button a:focus {
